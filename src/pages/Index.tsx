@@ -5,6 +5,7 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 import { Twitter, Send, Globe, Download, ChevronRight } from "lucide-react";
 
 // --- Tokenomics Data ---
+
 const data = [
   { name: "Community & Liquidity", value: 50 },
   { name: "Marketing & Memes", value: 20 },
