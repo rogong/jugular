@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AI Tools Design System - Crypto/Web3 Theme with Glassmorphism */
+
+@layer base {
+  :root {
+    /* AI Tools Brand Colors */
+    --background: 222 84% 5%; /* Deep slate background */
+    --foreground: 210 40% 98%; /* Near white text */
+
+    --card: 222 84% 5%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 84% 5%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Sky Blue Primary - AI Tools brand */
+    --primary: 199 89% 48%; /* Sky-500 */
+    --primary-foreground: 210 40% 98%;
+    --primary-light: 199 89% 68%; /* Sky-400 */
+    --primary-dark: 199 89% 28%; /* Sky-600 */
+
+    /* Glass/Secondary Elements */
+    --secondary: 215 28% 17%; /* Slate-800 */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 25% 27%; /* Slate-700 */
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 199 89% 48%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Glass borders and inputs */
+    --border: 215 25% 27%;
+    --input: 215 25% 27%;
+    --ring: 199 89% 48%;
+
+    --radius: 1rem; /* Larger radius for modern look */
+
+    /* AI Tools specific design tokens */
+    --glass-bg: 210 40% 98% / 0.05; /* White with 5% opacity */
+    --glass-border: 210 40% 98% / 0.1; /* White with 10% opacity */
+    --glass-backdrop: 222 84% 5% / 0.6; /* Background with 60% opacity */
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(199, 92%, 15%), hsl(237 87% 67%)); /* Sky to Indigo */
+    --gradient-bg: linear-gradient(to bottom right, hsl(223, 51%, 31%), hsl(215, 62%, 45%), hsl(199 89% 20%));
+    --gradient-hero: radial-gradient(60% 60% at 50% 10%, hsla(199, 87%, 15%, 0.2), transparent);
+    
+    /* Shadows */
+    --shadow-glow: 0 10px 30px -10px hsla(199, 90%, 12%, 0.3);
+    --shadow-glass: 0 25px 50px -12px hsl(222 84% 5% / 0.8);
+    
+    /* Animation easing */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  /* Light mode overrides (keeping it simple since this is a dark-themed project) */
+  .light {
+    --background: 210 40% 98%;
+    --foreground: 222 84% 5%;
+    --card: 210 40% 98%;
+    --card-foreground: 222 84% 5%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
