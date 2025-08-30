@@ -72,7 +72,7 @@ export default function JugularSite() {
                 Launch App <ChevronRight className="ml-1 h-4 w-4"/>
               </Button>
               <Button variant="outline" className="rounded-2xl border-2 bg-amber-300">
-                <Download className="mr-2 h-4 w-4"/> Whitepaper
+               <a href="/jugular-whitepaper.pdf"> <Download className="mr-2 h-4 w-4"/> Whitepaper</a>
               </Button>
             </div>
           </div>
