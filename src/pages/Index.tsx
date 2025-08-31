@@ -7,11 +7,11 @@ import { Twitter, Send, Globe, Download, ChevronRight } from "lucide-react";
 // --- Tokenomics Data ---
 
 const data = [
-  { name: "Community & Liquidity", value: 50 },
-  { name: "Marketing & Memes", value: 20 },
-  { name: "Ecosystem Development", value: 15 },
-  { name: "Team & Advisors", value: 10 },
-  { name: "Charity & Causes", value: 5 },
+  { name: "Community & Liquidity", value: 90 },
+  { name: "Marketing & Memes", value: 0.5 },
+  { name: "Ecosystem Development", value: 0.5 },
+  { name: "Team & Advisors", value: 0.5 },
+  { name: "Charity & Causes", value: 0.5 },
 ];
 
 const COLORS = ["#ff007f", "#ffae00", "#00d4ff", "#7b61ff", "#30d158"];
