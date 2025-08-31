@@ -66,7 +66,7 @@ export default function JugularSite() {
               The Colorful Meme Token That Goes For The <span className="underline decoration-wavy decoration-fuchsia-500">Jugular</span>
             </motion.h1>
             <p className="mt-6 text-lg/7 text-gray-700 max-w-prose">
-              $JUG blends blazing meme energy with real community utilities — decentralized chat and DAO governance — wrapped in a vibrant, feel-good brand.
+              $JUG blends blazing meme energy with real community utilities — play to earn music dapp and DAO governance — wrapped in a vibrant, feel-good brand.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button className="rounded-2xl bg-gradient-to-r from-fuchsia-600 via-rose-500 to-orange-400 text-white shadow-lg hover:opacity-90">
@@ -110,9 +110,9 @@ export default function JugularSite() {
           <div className="grid gap-6 md:grid-cols-2">
             <Card className="rounded-2xl shadow-lg bg-gradient-to-br from-fuchsia-50 to-rose-50 border-fuchsia-200">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Social Media Chat — <span className="text-fuchsia-700">Jugular Chat dApp</span></h3>
+                <h3 className="text-xl font-bold mb-2">Social Media Music dapp, play to earn— <span className="text-fuchsia-700">Jugular Music dapp, play to earn dApp</span></h3>
                 <p className="text-gray-700">
-                  A decentralized chat platform where $JUG holders connect, share memes, and build culture — with token-gated channels and on-chain identity.
+                  A decentralized Music dapp, play to earn platform where $JUG holders connect, share memes, and build culture — with token-gated channels and on-chain identity.
                 </p>
               </CardContent>
             </Card>
@@ -165,8 +165,8 @@ export default function JugularSite() {
           <div className="grid gap-6 md:grid-cols-4">
             {[
               { phase: "Phase 1", title: "Launch & Community", desc: "Fair launch, socials, meme contests." },
-              { phase: "Phase 2", title: "Growth & Ecosystem", desc: "Jugular Chat beta, DAO testing, staking." },
-              { phase: "Phase 3", title: "Expansion", desc: "Chat full release, DAO active, partnerships." },
+              { phase: "Phase 2", title: "Growth & Ecosystem", desc: "Jugular Music dapp, play to earn beta, DAO testing, staking." },
+              { phase: "Phase 3", title: "Expansion", desc: "Music dapp, play to earn full release, DAO active, partnerships." },
               { phase: "Phase 4", title: "Domination", desc: "CEX listings, merch, global meme events." },
             ].map((item, i) => (
               <Card key={i} className="rounded-2xl shadow-md bg-gradient-to-br from-white to-neutral-50">
