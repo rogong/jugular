@@ -47,7 +47,7 @@ export default function JugularSite() {
             <Button variant="ghost" className="rounded-2xl">Tokenomics</Button>
             <Button variant="ghost" className="rounded-2xl">Roadmap</Button>
             <Button className="rounded-2xl bg-gradient-to-r from-fuchsia-600 via-amber-500 to-sky-500 text-white shadow-lg hover:opacity-90">
-              Buy $JUG
+              Buy $JUGULAR
             </Button>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function JugularSite() {
               The Colorful Meme Token That Goes For The <span className="underline decoration-wavy decoration-fuchsia-500">Jugular</span>
             </motion.h1>
             <p className="mt-6 text-lg/7 text-gray-700 max-w-prose">
-              $JUG blends blazing meme energy with real community utilities — play to earn music dapp and DAO governance — wrapped in a vibrant, feel-good brand.
+              $JUGULAR blends blazing meme energy with real community utilities — play to earn music dapp and DAO governance — wrapped in a vibrant, feel-good brand.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button className="rounded-2xl bg-gradient-to-r from-fuchsia-600 via-rose-500 to-orange-400 text-white shadow-lg hover:opacity-90">
@@ -112,7 +112,7 @@ export default function JugularSite() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Social Media Music dapp, play to earn— <span className="text-fuchsia-700">Jugular Music dapp, play to earn dApp</span></h3>
                 <p className="text-gray-700">
-                  A decentralized Music dapp, play to earn platform where $JUG holders connect, share memes, and build culture — with token-gated channels and on-chain identity.
+                  A decentralized Music dapp, play to earn platform where $JUGULAR holders connect, share memes, and build culture — with token-gated channels and on-chain identity.
                 </p>
               </CardContent>
             </Card>
@@ -120,7 +120,7 @@ export default function JugularSite() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Community Governance — <span className="text-emerald-700">Jugular DAO</span></h3>
                 <p className="text-gray-700">
-                  $JUG holders propose and vote on meme campaigns, partnerships, and donations, steering the ecosystem with transparent, on-chain decisions.
+                  $JUGULAR holders propose and vote on meme campaigns, partnerships, and donations, steering the ecosystem with transparent, on-chain decisions.
                 </p>
               </CardContent>
             </Card>
@@ -185,7 +185,7 @@ export default function JugularSite() {
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 via-cyan-600 to-emerald-600">Join the Jugular Army</h2>
-          <p className="text-gray-700 mb-8">Follow, share, and help shape the future of $JUG.</p>
+          <p className="text-gray-700 mb-8">Follow, share, and help shape the future of $JUGULAR.</p>
          <div className="flex justify-center gap-4">
   <a href="https://x.com/JugularCoin" target="_blank" rel="noopener noreferrer">
     <Button variant="outline" className="rounded-2xl bg-amber-300">
