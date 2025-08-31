@@ -39,7 +39,7 @@ export default function JugularSite() {
       <nav className="sticky top-0 z-40 backdrop-blur bg-white/40 border-b border-white/60">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
           <div className="text-xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 via-amber-600 to-sky-600">
-            JUGULAR TOKEN
+           
             <img src="/logo.png"  alt="logo" width={50}/>
           </div>
           <div className="hidden md:flex items-center gap-3">
