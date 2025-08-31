@@ -193,7 +193,7 @@ export default function JugularSite() {
     </Button>
   </a>
 
-  <a href="https://t.me/JugularCoin" target="_blank" rel="noopener noreferrer">
+  <a href="https://t.me/jugularjugular" target="_blank" rel="noopener noreferrer">
     <Button variant="outline" className="rounded-2xl bg-amber-300">
       <Send className="mr-2 h-4 w-4" /> Telegram
     </Button>
