@@ -186,11 +186,26 @@ export default function JugularSite() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 via-cyan-600 to-emerald-600">Join the Jugular Army</h2>
           <p className="text-gray-700 mb-8">Follow, share, and help shape the future of $JUG.</p>
-          <div className="flex justify-center gap-4">
-            <Button variant="outline" className="rounded-2xl bg-amber-300"><Twitter className="mr-2 h-4 w-4"/> Twitter</Button>
-            <Button variant="outline" className="rounded-2xl bg-amber-300"><Send className="mr-2 h-4 w-4"/> Telegram</Button>
-            <Button variant="outline" className="rounded-2xl bg-amber-300"><Globe className="mr-2 h-4 w-4"/> Docs</Button>
-          </div>
+         <div className="flex justify-center gap-4">
+  <a href="https://x.com/JugularCoin" target="_blank" rel="noopener noreferrer">
+    <Button variant="outline" className="rounded-2xl bg-amber-300">
+      <Twitter className="mr-2 h-4 w-4" /> Twitter
+    </Button>
+  </a>
+
+  <a href="https://t.me/JugularCoin" target="_blank" rel="noopener noreferrer">
+    <Button variant="outline" className="rounded-2xl bg-amber-300">
+      <Send className="mr-2 h-4 w-4" /> Telegram
+    </Button>
+  </a>
+
+  <a href="/jugular-whitepaper.pdf" target="_blank" rel="noopener noreferrer">
+    <Button variant="outline" className="rounded-2xl bg-amber-300">
+      <Globe className="mr-2 h-4 w-4" /> Whitepaper
+    </Button>
+  </a>
+</div>
+
         </div>
       </section>
 
