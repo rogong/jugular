@@ -86,7 +86,7 @@ export default function JugularSite() {
             transition={{ type: "spring", stiffness: 120, damping: 12 }}
           >
             <div className="grid place-items-center text-center">
-              <div className="text-white/90 text-4xl font-black tracking-widest drop-shadow">JUG</div>
+              <div className="text-white/90 text-4xl font-black tracking-widest drop-shadow">JUGULAR</div>
               <div className="mt-2 text-white/80 text-sm">Jugular Token</div>
             </div>
           </motion.div>
